@@ -1,0 +1,31 @@
+
+.editpage {
+display: flex;
+text-align: center;
+padding-left: 50px;
+position: relative;
+margin: 120px 0px 0px 0px;
+}
+
+
+.form-input,
+.artist-input,
+.album-input,
+.time-input,
+.fav-input
+{
+background-color: pink;
+display: grid;
+gap: 8px;
+max-width: 200px;
+row-gap: 5px;
+padding: 10px 15px;
+font-weight: normal;
+}
+
+
+.sub{
+display: inline-block;
+text-align: center;
+}
+
