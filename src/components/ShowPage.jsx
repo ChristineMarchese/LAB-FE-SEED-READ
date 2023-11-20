@@ -4,7 +4,6 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import "./ShowPage.css";
 
-
 function ShowPage() {
  const [song, setSong] = useState("");
  const { id } = useParams();
